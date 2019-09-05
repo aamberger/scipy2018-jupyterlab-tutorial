@@ -26,10 +26,13 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
     - evaluate `pandas?` to get the help on the pandas library.
     - try `pandas.D<tab>` to get tab completion on the pandas library. Note that completions can take a few second the first time the library get inspected to get result.
     - Complete to `pandas.DataFrame(` place the cursor after the open bracket and press `Shift-Tab` to get quick help.
-    - To always see the info about the current function you can open the inspector via the command palette.
-        - Use the command palette the find the Keyboard shortcut to open the inspector.
-        - Move the inspector tab somewhere so that you can see both it and the notebook.
-        - Type `pandas.read_csv(` to see the inspector display function help.
+    - More help:
+        - What is the Ipython shortcut for `help(pandas.DataFrame)`?
+        - Ipython shortcut to access the source code of `pandas.DataFrame`?
+    - To always see the info about the current function you can open the "Contextual Help" via the command palette.
+        - Use the command palette the find the Keyboard shortcut to open the contextual help.
+        - Move the contextual help tab somewhere so that you can see both it and the notebook.
+        - Type `pandas.read_csv(` to see the interactive function help.
     - Use panda’s `read_csv` to load `'../data/iris.csv'` into a dataframe, display this dataframe
     - open `'../data/iris.csv'` as a standalone CSV file.
     - use `%matpltolib inline` to allow inline graphs, 
